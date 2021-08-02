@@ -11,7 +11,9 @@ const PostList = ({posts}) => {
         return(
         <li key={id} className='list-group-item'>
             <PostListItem {...itemProps}/>  
-            {/* label={item.label} important={item.important}/>можем убрать нижные 2 слоя и написать вместо {...item}/> автомарически */} */}
+            {/* label={item.label} 
+                important={item.important}
+            />можем убрать нижные 2 слоя и написать вместо {...item}/> */} 
         </li>
        )
     });
